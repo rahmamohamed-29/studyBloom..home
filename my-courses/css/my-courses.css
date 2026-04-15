@@ -241,51 +241,7 @@ ul {
   .photo {
     width: 50%;
   }
-  .organize{
-    display: none;
-  }
- .course {
-  display: grid;
- grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-  gap: 30px;
-  padding: 20px;
-  margin-bottom: 50px;
-}
-.card {
-  box-shadow: rgb(112, 73, 134, 0.3) 0px 2px 8px 0px;
-  padding: 30px 20px;
-  border-radius: 15px;
-  transition: transform 0.3s ease;
-  background-color: rgb(210, 196, 225, 0.2);
-  height: auto;
-  margin: auto 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.card:hover {
-  transform: translateY(-15px);
-}
-.element {
-  display: flex;
-  flex-direction: row;
-  align-items: first baseline;
-  gap: 5px;
-}
-.titleCard {
-  font-size: 20px;
-  color: #321942;
-  text-align: left;
-  font-family: "Cormorant Garamond", serif;
-  margin-top: -10px;
-}
-.describtion3 {
-  font-size: 16px;
-  color: #321942;
-  text-align: left;
-  font-family: "Noto Serif", serif;
-  margin-top: -10px;
-} 
+
 }
 @media (max-width: 650px) {
   .links {
@@ -302,6 +258,18 @@ ul {
     .description1{
         font-size: 20px;
     }
+
+  .organize{
+  width: 70%;
+}
+.organize td {
+    font-size: 20px;
+    padding: 7px;
+}
+.organize th {
+    font-size: 28px;
+    padding: 7px;
+}
   .end {
     flex-direction: column;
     text-align: center;
@@ -338,9 +306,9 @@ ul {
   }
   .myCourses {
     flex-direction: column;
-    gap: 5px;
-    margin: 0;
-    padding: 0px;
+    gap: 0px;
+    margin: 5px;
+    padding: 5px;
   }
   .b {
     display: flex;
@@ -350,6 +318,18 @@ ul {
     width: 30%;
   }
 
+  .organize{
+  width: 50%;
+  margin: 10px auto;
+}
+.organize td {
+    font-size: 16px;
+    padding: 10px;
+}
+.organize th {
+    font-size: 25px;
+    padding: 10px;
+}
   .end {
     font-size: 12px;
   }
