@@ -338,9 +338,9 @@ ul {
   }
   .myCourses {
     flex-direction: column;
-    gap: 0px;
-    margin: 5px;
-    padding: 5px;
+    gap: 5px;
+    margin: 0;
+    padding: 0px;
   }
   .b {
     display: flex;
