@@ -381,7 +381,7 @@ ul {
     .head {
   height: 50px;}
   .links {
-    gap: 10px;
+    gap: 7px;
   }
   .logo {
     display: none;
@@ -389,7 +389,7 @@ ul {
   .minilogo {
     display: block;
     width: 30px;
-    margin-left: 0;
+    margin-left: 2px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-right: 5px;
@@ -406,7 +406,6 @@ ul {
   .describtion1 {
     font-size: 14px;
   }
-  ,
   .describtion3{
     font-size: 16px;
   }
