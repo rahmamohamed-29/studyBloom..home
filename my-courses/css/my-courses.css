@@ -309,8 +309,8 @@ ul {
   .myCourses {
     flex-direction: column;
     gap: 0px;
-    margin: 5px;
-    padding: 5px;
+    margin: 2px;
+    padding: 0px;
   }
   .b {
     display: flex;
@@ -326,11 +326,11 @@ ul {
 }
 .organize td {
     font-size: 16px;
-    padding: 10px;
+    padding: 3px;
 }
 .organize th {
     font-size: 25px;
-    padding: 10px;
+    padding: 3px;
 }
   .end {
     font-size: 12px;
